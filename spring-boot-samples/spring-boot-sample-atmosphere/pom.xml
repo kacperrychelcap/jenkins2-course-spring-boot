@@ -11,13 +11,16 @@
 	<name>Spring Boot Atmosphere Sample</name>
 	<description>Spring Boot Atmosphere Sample</description>
 	<url>http://projects.spring.io/spring-boot/</url>
+	
 	<organization>
 		<name>Pivotal Software, Inc.</name>
 		<url>http://www.spring.io</url>
 	</organization>
+	
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -49,6 +52,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -77,4 +81,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	
 </project>
